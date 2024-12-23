@@ -1,0 +1,81 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Шапка */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Баннер */
+.banner {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+}
+
+.banner button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Карточки товаров */
+.product-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
